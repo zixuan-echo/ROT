@@ -1,0 +1,15 @@
+Package: ROT
+Type: Package
+Title: Unbalanced OT solvers
+Version: 1.0
+Date: 2021-01-12
+Author: Shi Zhan, Wu Shiping, Xu Zixuan
+Maintainer: Shi Zhan <rbsshizhan@163.com>
+Description: Unbalanced OT solvers using generalized Sinkhorn-Knopp matrix scaling algorithm;
+             Partial OT solvers;
+             Compute the entropic unbalanced wasserstein barycenter of distributions;
+             Functions for plotting OT matrices.
+License: GNU GPLv3
+Imports: Rcpp (>= 1.0.5)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.1.1
